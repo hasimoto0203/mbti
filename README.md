@@ -1,16 +1,25 @@
-# React + Vite
+# MBTI Compatibility Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MBTIの結果をもとに、自分と相手の相性を診断するツールです。
 
-Currently, two official plugins are available:
+## 開発の目的と背景
+日常んコミュニケーションにおいて、自分と相手の性格特性の違いを理解し、より円滑関係構築を支援することを目的に作成しました。直感的な操作と、一目でわかる視覚的なデザインを意識しました。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##　使用技術
+・React 19
+・Tailwind CSS
+・JavaScript
 
-## React Compiler
+##　セットアップ方法
+```bash
+# リポジトリをクローン
+git clone https://github.com/hasimoto0203/mbti.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# ディレクトリに移動
+cd mbti
 
-## Expanding the ESLint configuration
+# パッケージをインストール
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ローカルサーバーを起動
+npm run dev
