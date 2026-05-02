@@ -162,7 +162,7 @@ export default function App() {
 
         <div className="mt-12 flex items-center justify-center gap-3 opacity-30">
           <div className="h-[1px] w-8 bg-slate-400"></div>
-          <p className="text-slate-900 text-[10px] tracking-[0.2em] uppercase font-black">Business Communication Support Tool</p>
+          <p className="text-slate-900 text-[10px] tracking-[0.1em] font-black">性格特性を理解し、円滑な関係構築を支援する</p>
           <div className="h-[1px] w-8 bg-slate-400"></div>
         </div>
       </div>
